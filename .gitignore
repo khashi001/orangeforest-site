@@ -9,3 +9,5 @@ vendor/
 *.gem
 Gemfile.lock
 
+.tokens_memo*.txt
+*.tokens*
