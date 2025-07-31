@@ -1,6 +1,6 @@
 # Site settings
 title: Orange Forest
-email: your-email@orangeforest.jp  # ←あなたのメールアドレス
+email: your-email@orangeforest.jp
 description: >-
   モバイルアプリ開発・3DCG映像制作・電子工作プログラミング講師として活動。
   最新技術を駆使したクリエイティブワークを展開しています。
@@ -9,8 +9,8 @@ url: "https://orangeforest.jp"
 
 # Author info
 author:
-  name: Orange Forest Kumiko Hashimoto
-  twitter: @orangeforestKH
+  name: Orange Forest
+  twitter: orangeforestKH
 
 # Current focus (easy to change priority)
 current_focus: apps  # apps, 3dcg, education
@@ -25,10 +25,10 @@ plugins:
 
 # Social links
 social:
-  twitter: @orangeforestKH
-  youtube: @kumihashimot8579
+  twitter: orangeforestKH
+  youtube: kumihashimot8579
   instagram: kumikohashimot
-  facebook: 100077894791957
+  facebook: "100077894791957"
 
 # Collections
 collections:
@@ -58,4 +58,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-

@@ -1,0 +1,46 @@
+# アプリ情報データベース
+apps:
+  - name: "最新アプリ名"
+    description: "アプリの簡潔な説明文（実際のアプリ情報に変更してください）"
+    detailed_description: |
+      アプリの詳細な説明。
+      機能や特徴について複数行で記述できます。
+    platforms:
+      - iOS
+      - Android
+    release_date: "2024-07-25"
+    version: "1.0.0"
+    status: "リリース済み"
+    featured: true  # トップページで強調表示
+    screenshots:
+      - "/assets/images/apps/latest-app/screenshot1.png"
+      - "/assets/images/apps/latest-app/screenshot2.png"
+    links:
+      app_store: "https://apps.apple.com/app/your-app"
+      google_play: "https://play.google.com/store/apps/details?id=your.app"
+      github: "https://github.com/yourusername/your-app"
+    technologies:
+      - React Native
+      - TypeScript
+      - Firebase
+    development_story: |
+      ## 開発の経緯
+      このアプリを開発したきっかけは...
+      
+      ## 技術的な挑戦
+      特に苦労したのは...
+      
+      ## 今後の展望
+      次のバージョンでは...
+    
+  - name: "過去のアプリ1"
+    description: "過去に開発したアプリの説明"
+    platforms:
+      - iOS
+    release_date: "2023-12-15"
+    version: "2.1.0"
+    status: "メンテナンス中"
+    featured: false
+    technologies:
+      - Swift
+      - Core Data
