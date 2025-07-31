@@ -1,0 +1,61 @@
+# Site settings
+title: Orange Forest
+email: your-email@orangeforest.jp  # ←あなたのメールアドレス
+description: >-
+  モバイルアプリ開発・3DCG映像制作・電子工作プログラミング講師として活動。
+  最新技術を駆使したクリエイティブワークを展開しています。
+baseurl: ""
+url: "https://orangeforest.jp"
+
+# Author info
+author:
+  name: Orange Forest Kumiko Hashimoto
+  twitter: @orangeforestKH
+
+# Current focus (easy to change priority)
+current_focus: apps  # apps, 3dcg, education
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social links
+social:
+  twitter: @orangeforestKH
+  youtube: @kumihashimot8579
+  instagram: kumikohashimot
+  facebook: 100077894791957
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Orange Forest"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
